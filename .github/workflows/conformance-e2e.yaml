@@ -68,8 +68,8 @@ env:
   cilium_cli_version:
   cilium_cli_ci_version: 8df33c0910315c991f613cef0230b4282b12df6e
   check_url: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
-  upgrade_cilium_from_vsn: 1.13.3
-  upgrade_cilium_to_vsn: 1.13.4 # empty = the PR version
+  upgrade_cilium_from_vsn: 1.13.4
+  upgrade_cilium_to_vsn: # empty = the PR version
 
 jobs:
   check_changes:
