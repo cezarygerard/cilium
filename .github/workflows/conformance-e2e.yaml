@@ -189,6 +189,7 @@ jobs:
             kube-proxy: 'iptables'
             kpr: 'disabled'
             tunnel: 'disabled'
+            debug: 'true'
             test-upgrade: 'true'
             test-flow-interrupts: 'true'
 
@@ -207,6 +208,7 @@ jobs:
             lb-mode: 'snat'
             endpoint-routes: 'true'
             egress-gateway: 'true'
+            debug: 'true'
             test-upgrade: 'true'
             test-flow-interrupts: 'true'
 
@@ -261,6 +263,7 @@ jobs:
             tunnel: 'disabled'
             encryption: 'ipsec'
             encryption-node: 'false'
+            debug: 'true'
             test-upgrade: 'true'
             test-flow-interrupts: 'true'
 
